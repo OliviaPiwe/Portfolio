@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mein Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      body {
+        min-height: 100svh;
+        background-image: url("https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        backdrop-filter: blur(5px); /* Hintergrund unscharf machen */
+      }
+      .content {
+        backdrop-filter: blur(5px); /* Unschärfe für den Inhalt */
+      }
+    </style>
+  </head>
+  <body class="text-gray-900">
+    <header class="text-center py-10 px-5">
+      <h1 class="text-3xl md:text-4xl font-bold">
+        Willkommen auf meiner Seite!
+      </h1>
+      <p class="text-md md:text-lg text-gray-900 font-bold">
+        Olivia Piechowski
+      </p>
+      <p class="text-md md:text-lg text-gray-900 font-bold">
+        Fullstack-Webentwicklerin
+      </p>
+    </header>
+    <div class="flex flex-col items-center w-full">
+      <section
+        class="w-11/12 md:w-3/4 lg:w-2/3 mx-auto p-5 bg-white shadow-md rounded-lg backdrop-blur-lg bg-opacity-50 border border-white/20 m-3 md:m-5"
+      >
+        <h2 class="text-xl md:text-2xl font-semibold mb-4">Über mich</h2>
+        <p class="text-sm md:text-base">
+          Ich liebe es, moderne und effiziente Webanwendungen zu entwickeln.
+          Mein Fokus liegt auf der Entwicklung mit React für das Frontend und
+          Express mit MongoDB für das Backend. Ich habe Erfahrung mit
+          Technologien wie bcrypt zur Passwortverschlüsselung, Mongoose für die
+          Datenbankverwaltung und Tailwind CSS für modernes UI-Design. Durch
+          meine Leidenschaft für sauberen und skalierbaren Code entwickle ich
+          robuste Anwendungen, die sowohl funktional als auch benutzerfreundlich
+          sind. Aktuell arbeite ich daran, mein Wissen in TypeScript zu
+          vertiefen, um meine Codequalität und Wartbarkeit weiter zu verbessern.
+        </p>
+      </section>
+
+      <section
+        class="w-11/12 md:w-3/4 lg:w-2/3 mx-auto p-5 mt-3 md:mt-5 bg-white shadow-md rounded-lg backdrop-blur-lg bg-opacity-50 border border-white/20 m-3 md:m-5"
+      >
+        <h2 class="text-xl md:text-2xl font-semibold mb-4">Projekte</h2>
+        <ul class="list-disc ml-5 text-sm md:text-base">
+          <li>
+            <a
+              href="https://hello-word-6z2bg.ondigitalocean.app/"
+              target="_blank"
+              class="text-blue-700 hover:underline"
+              >Hello, Word!</a
+            >
+            – Real-Time Chat App
+          </li>
+          <li>
+            <a
+              href="https://final-project-piwko-restaurant.netlify.app/"
+              target="_blank"
+              class="text-blue-700 hover:underline"
+              >Restaurant Website</a
+            >
+            – Backend-Project mit Fokus auf Bestellungen
+          </li>
+          <li>Work in Progress...</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer class="text-center py-10 mt-20 px-5">
+      <p class="text-sm md:text-base">
+        Kontakt:
+        <a
+          href="olivia_piechowski@hotmail.de"
+          class="text-blue-500 hover:underline"
+          >olivia_piechowski@hotmail.de</a
+        >
+      </p>
+      <div class="mt-4 flex justify-center space-x-4">
+        <a
+          href="https://github.com/OliviaPiwe"
+          target="_blank"
+          class="text-gray-600 text-xl md:text-2xl"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/olivia-piechowski/"
+          target="_blank"
+          class="text-gray-600 text-xl md:text-2xl"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
